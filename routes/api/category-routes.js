@@ -46,8 +46,7 @@ router.get("/:id", (req, res) => {
       console.log(err);
       res.status(500).json(err);
     });
-  });
-
+});
 
 // create a new category
 router.post("/", (req, res) => {
@@ -86,21 +85,20 @@ router.delete("/:id", (req, res) => {
   Category.destroy({
     where: {
       id: req.params.id,
-    }
+    },
   })
-  .then((dbCategoryData) => {
+    .then((dbCategoryData) => {
       if (!dbCategoryData) {
-        res.status(404).json({ message: "No category found with this id" });
-        return;
-      }
+      //  res.status(404).json({ message: "No category found with this id" });
+      //  return;
+      
       res.json(dbCategoryData);
-      }
-    })
+}
+})
     .catch((err) => {
       console.log(err);
       res.status(500).json(err);
     })
-})
-
+});
 
 module.exports = router;

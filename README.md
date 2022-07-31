@@ -36,7 +36,9 @@ Categorize and track all your products, attach description tags, update informat
     This project is licensed under the MIT license.
 
 ## Video Link
-https://drive.google.com/file/d/1Mzj8uCaeYxm7spB-3bdGhE5YCEYIxxuB/view
+
+https://drive.google.com/file/d/14jCvqC5nXYeBK2HBHE3Xy9JEgl2yUObM/view
+
 
 ## Contributing
 
