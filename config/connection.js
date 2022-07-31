@@ -14,4 +14,4 @@ const sequelize = process.env.JAWSDB_URL
     });
 
 module.exports = sequelize;
-//13.35 force: true to before listening
+
